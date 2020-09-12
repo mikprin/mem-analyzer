@@ -1,0 +1,122 @@
+% "Станет проще"
+
+\documentclass[a4paper,12pt]{article} % тип документа
+
+% report, book
+
+%  Русский язык
+
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage{fancyhdr, graphicx}
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+
+%отступ
+\usepackage[left=3cm,right=3cm,
+    top=3cm,bottom=2cm,bindingoffset=0cm]{geometry}
+
+% Математика
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{csvsimple}
+\usepackage{multirow}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{subcaption}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{rotating}
+\usepackage{textcomp}
+
+%Заговолок
+\graphicspath{ {img/} }
+\pagestyle{fancy}
+
+\fancyhead[L]{Лаборатория нейровычислительных систем}
+\fancyhead[R]{ \includegraphics[width=4cm]{mipt.png} }
+%\renewcommand{\topmargin}{17pt}
+\setlength{\headheight}{40pt}% Should be at least 24.4pt
+\renewcommand{\headrulewidth}{0.5pt}
+\setlength{\headsep}{35pt}
+
+
+\begin{titlepage}
+\author{Соловьянов Михаил. Лаборатория Нейровычислительных систем.}
+\title{Техническое задание для эксперементального чипа FRAM}
+\date{\today}
+\end{titlepage}
+
+
+
+\begin{document} % начало документа
+\thispagestyle{fancy}
+\maketitle
+
+
+
+\section{ Постановка задачи}
+
+
+Предлагается в сжатые сроки создать уникальный чип-тестовую станцию, для тестирования инновационных энергоэффективных видов памяти. Помещение тестирующей аппаратуры прямо <<на чип>> позволит избежать проблем связанных с паразитными  параметрами зондовых станций, что позволит изучать высокочастотные характеристики памяти, а также позволит автоматизировать процесс изучения качества выращенной памяти. 
+
+\section{Устройство чипа}
+
+Поставленные требования будут достигнуты следующим образом: чип будет состоять как из массивов памяти, так и из аналогового измерительного блока, информация от которого может в оцифрованном виде поступать в контроллер чипа. Контроллер будет представлять из себя встроенный микропроцессор управляющий памятью и измерительными блоками, а также обмениваться информацией , настройками и записанными измерениями с внешним миром через интерфейс SPI. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{top.png}
+\caption{Супер общая схема чипа (добавить тактирование)}
+\end{figure}
+
+Примерное устройство чипа представлено на рисунке, и предполагает контроль/измерение нескольких ядер различной памяти,а также анализаторов отклика, с возможностью подключать их как к интересующим нас столбцам выбранного стека, так и к индивидуальной ячейки. Планируется покрыть спектр измерений ячеек, схожий с возможностями тестовой станции \underline{ \href{https://www.keysight.com/ru/ru/assets/7018-01289/data-sheets/5989-2785.pdf}{B1500A} }
+
+\section{Выполнение}
+
+
+
+
+
+Предлагаю скоординировать коллектив, выполнение и постановку тактических задач в \underline {\href{todoist.com}{Todoist}}.
+
+\subsection{Roadmap}
+
+Предположительно придется уложиться вот в такие сроки (уточнить практическую возможность):
+
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.1\textwidth]{roadmap.png}
+\caption{ Черновик предлагаемой карты проекта}
+\end{figure}
+
+Актуальная ссылка на карту проекта:  \url {https://docs.google.com/spreadsheets/d/1iLgjOFxg0ekC7h_q5b4wdxDc1nRjKAJDCEXyratIL5U/edit?usp=sharing}
+
+
+
+\subsection{Квалификации}
+
+Ниже приведены необходимые  hard skills к выполнению задач, а так же люди подходящие под описание. Диму я исключил тут из всех категорий, но он есть во всех видимо.
+
+\begin{itemize}
+\item \textbf{Цифровая электроника} Разработка контроллера, имлементация verilog кода, настройка синтеза на кристалл. (Миша)
+\item \textbf{Аналоговая электроника} Схемотехника, Симуляция, Создание Layout ячеек (Паша, Миша)
+\item \textbf{Python programming} : создание компилятора для SPICE и физической репрезентации, возможно написание скриптов для отладки, тестирования, автоматизированной симуляции.(Паша, Миша)
+
+\end{itemize}
+
+
+\subsection{Имеющиеся Ассеты}
+
+\begin{itemize}
+\item Имеется недописанный \underline{\href{https://gitlab.com/mipt-ncs/nvram-gen}{компилятор ядра}}
+\item В открытом доступе можно найти много verilog кода для RISCV архитектуры и перефирии.
+\item SRAM компилятор для проекта от Микрона
+
+
+\end{itemize}
+
+\end{document}
