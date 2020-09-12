@@ -374,6 +374,21 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
          transform="matrix(0.2,0,0,0.2,1.2,0)" />
     </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart-2-9-67"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8112-8-4-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -383,8 +398,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="436.34475"
-     inkscape:cy="931.42987"
+     inkscape:cx="259.57067"
+     inkscape:cy="900.30661"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -484,10 +499,10 @@
          style="font-size:4.58611107px;stroke-width:0.26458332">MeRAM</tspan></text>
     <rect
        transform="scale(1,-1)"
-       y="-61.448624"
+       y="-63.809746"
        x="70.892097"
-       height="37.283024"
-       width="30.285425"
+       height="39.644142"
+       width="30.238178"
        id="rect5158-7-7-0-1-1-6"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.28200001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="300"
@@ -504,8 +519,8 @@
          y="31.845566"
          style="font-size:6.3499999px;line-height:1.25;fill:#000000;fill-opacity:0;stroke-width:0.26458332" /></text>
     <path
-       style="opacity:0.92600002;fill:#e9afaf;fill-opacity:0.62566845;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 71.045579,42.801518 V 24.304751 H 86.032201 101.01883 V 42.801518 61.298285 H 86.032201 71.045579 Z"
+       style="opacity:0.92600002;fill:#e9afaf;fill-opacity:0.62566845;stroke-width:0.10000001;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 71.04558,43.989386 V 24.30475 H 86.015367 100.98516 V 43.989386 63.674023 H 86.015367 71.04558 Z"
        id="path7941"
        inkscape:connector-curvature="0"
        inkscape:export-xdpi="300"
@@ -612,10 +627,10 @@
          id="tspan4729-79-7-2">I2C</tspan></text>
     <rect
        transform="scale(1,-1)"
-       y="-43.535782"
-       x="51.003044"
-       height="8.099947"
-       width="13.420936"
+       y="-43.251808"
+       x="48.597622"
+       height="7.7992687"
+       width="16.811918"
        id="rect5158-7-7-0-1-1-61-7"
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="300"
@@ -688,7 +703,7 @@
     <path
        inkscape:connector-curvature="0"
        id="path5087-3-6-2-0-4-9-7-5-2"
-       d="M 73.766648,39.185131 H 64.931893"
+       d="M 73.817192,39.185133 H 65.917024"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart-2-9-8-1);marker-end:url(#Arrow1Send-6)"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -747,19 +762,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.5;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="144.6084"
-       y="50.959824"
+       x="144.23042"
+       y="50.345612"
        id="text6986-06-7"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
-         x="144.6084"
-         y="50.959824"
+         x="144.23042"
+         y="50.345612"
          style="font-size:4.58611107px;line-height:0.5;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan8009-4">Measuring electronics</tspan><tspan
          sodipodi:role="line"
-         x="144.6084"
-         y="56.310059"
+         x="144.23042"
+         y="55.695847"
          style="font-size:4.58611107px;line-height:0.5;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan25658">block</tspan></text>
     <path
@@ -895,5 +910,35 @@
          y="68.922318"
          style="font-size:4.58611107px;line-height:0.5;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan25658-5">CHIP</tspan></text>
+    <rect
+       transform="scale(1,-1)"
+       y="-64.809814"
+       x="48.37447"
+       height="5.430491"
+       width="16.82272"
+       id="rect5158-7-7-0-1-1-61-7-2-3"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5087-3-6-2-0-4-9-7-3"
+       d="M 70.587067,61.877985 H 65.353274"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.28200001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart-2-9-67)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.11666656px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="56.726917"
+       y="62.529999"
+       id="text4709-8-36-9-5"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="56.726917"
+         y="62.529999"
+         style="font-size:2.11666656px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan9107-9">GHz Clock</tspan></text>
   </g>
 </svg>
