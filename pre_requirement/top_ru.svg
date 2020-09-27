@@ -397,9 +397,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="479.57405"
-     inkscape:cy="966.9463"
+     inkscape:zoom="1.4"
+     inkscape:cx="536.80244"
+     inkscape:cy="916.58299"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -904,7 +904,7 @@
          x="124.70178"
          y="68.922318"
          style="font-size:4.58611107px;line-height:0.5;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         id="tspan25658-5">CHIP</tspan></text>
+         id="tspan25658-5">ЧИП</tspan></text>
     <rect
        transform="scale(1,-1)"
        y="-64.809814"
@@ -935,5 +935,25 @@
          y="62.529999"
          style="font-size:2.11666656px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan9107-9">GHz Такт.</tspan></text>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot994"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion996"><rect
+           id="rect998"
+           width="697.14288"
+           height="278.57144"
+           x="79.285713"
+           y="63.948257" /></flowRegion><flowPara
+         id="flowPara1000"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1002"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion1004"><rect
+           id="rect1006"
+           width="640.71429"
+           height="274.28571"
+           x="105"
+           y="33.948257" /></flowRegion><flowPara
+         id="flowPara1008"></flowPara></flowRoot>  </g>
 </svg>
